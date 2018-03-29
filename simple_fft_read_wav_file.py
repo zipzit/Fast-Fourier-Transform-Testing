@@ -4,6 +4,11 @@
     http://www.sonicspot.com/guide/wavefiles.html
     Now we read in the data, FFT it, find the coefficient with maximum power, and
     find the corresponding fft frequency, and then convert to Hertz:
+
+
+    Note: using ALSA on a Linux Operating System, use this command to record your own .wav file
+    ## record for 3 seconds, format: 16Bit Little Endian, Mono, 44100 sampling rate, file_name.wav
+        $ arecord -d 3 -f S16_LE -c1 -r44100 test.wav
 """
 
 import math
