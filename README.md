@@ -42,5 +42,5 @@ http://nairobi-embedded.org/alsa_daq_and_rt_fft.html
  - Create waveform, drive to FFT/frequency plot, and then to FFT/Bin plot. (Python)
  - Create .wav file, perform same analysis. (Python)
  - Record .wave file with microphone, perform same analysis. (Python)
- convert to C/C++, repeat.
+ - convert to C/C++, repeat the above three programs.
  - Finally use microphone to display real time FFT/Bin plots...
