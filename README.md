@@ -19,7 +19,7 @@ I needed to get up to speed on NumPy... Watched a pretty decent video from
         https://github.com/enthought/Numpy-Tutorial-SciPyConf-2016
 
 I ended up using Enthought's Integrated Development Enviroment tool [Canopy](https://www.enthought.com/product/canopy/)
-for this project.  I really like the integrated Jupiter Notebook console. That makes it easy to do quick testing and look up library details.  
+for this project.  I really like the integrated Jupyter Notebook console. That makes it easy to do quick testing and look up library details.  
 
 I've doing my testing on a Xubuntu Virtualbox on MacOS hardware.  Tried using
 PyCharm, but that tool was way too slow to be practical on a virtual machine.  The Canopy IDE ran great.
@@ -42,5 +42,5 @@ http://nairobi-embedded.org/alsa_daq_and_rt_fft.html
  - Create waveform, drive to FFT/frequency plot, and then to FFT/Bin plot. (Python)
  - Create .wav file, perform same analysis. (Python)
  - Record .wave file with microphone, perform same analysis. (Python)
- - convert to C/C++, repeat the above three programs.
+ - Jump over to C/C++, repeat the above three programs.
  - Finally use microphone to display real time FFT/Bin plots...
